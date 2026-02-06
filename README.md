@@ -20,6 +20,6 @@ El objetivo es ofrecer proyectos claros, funcionales y fáciles de adaptar para 
 
 1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/pycamp-lab.git
+   git clone https://github.com/calderoncaydev-gif/pytonpycamp-lab
    cd pycamp-lab
 

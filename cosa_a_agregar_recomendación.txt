@@ -1,0 +1,77 @@
+1. Data & Machine Learning
+
+Análisis de datos con Pandas/NumPy/Matplotlib/Seaborn
+
+Proyecto: un notebook que analice datasets públicos (como COVID, clima o ventas)
+
+Machine Learning básico
+
+Proyecto: predicción de precios, clasificación de imágenes o texto
+
+Librerías: scikit-learn, TensorFlow, PyTorch
+
+Web scraping y análisis
+
+Proyecto: scrapear noticias o productos de un sitio y generar gráficos
+
+Librerías: BeautifulSoup, Scrapy
+
+2. APIs y Web
+
+API REST con Flask o FastAPI
+
+Proyecto: CRUD para gestionar usuarios, tareas o productos
+
+Integración con APIs externas
+
+Proyecto: consumir API de clima, finanzas, mapas o redes sociales
+
+3. Automatización
+
+Ya tienes automation-test, pero puedes expandirlo con:
+
+Automatización de tareas diarias (renombrar archivos, enviar emails, reportes)
+
+Scraping y generación automática de dashboards
+
+Automatización con Selenium o Playwright para distintos navegadores
+
+4. DevOps / Infraestructura
+
+Scripts de administración de servidores
+
+Proyecto: deploy de un sitio en un VPS con Python
+
+Docker + Python
+
+Proyecto: contenerizar alguno de tus proyectos existentes
+
+5. Juegos o simulaciones
+
+Juegos sencillos con Pygame
+
+Proyecto: Snake, Pong o un simulador de física simple
+
+Simulaciones de mapas o tráfico
+
+Complementa tu carpeta maps con simulaciones dinámicas
+
+6. Seguridad / Criptografía
+
+Encriptación y hashing
+
+Proyecto: guardar contraseñas con bcrypt y verificar usuarios
+
+Pentesting básico
+
+Proyecto: script de escaneo de puertos o testing de endpoints (solo con fines educativos)
+
+7. Proyectos “portfolio-ready”
+
+Dashboard interactivo
+
+Combina tus proyectos bootstrap_with_dash_dashborad y maps para mostrar data en tiempo real
+
+App full-stack
+
+Backend con FastAPI + frontend simple con Dash o Streamlit
