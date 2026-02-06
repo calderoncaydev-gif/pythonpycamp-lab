@@ -1,20 +1,118 @@
-# 🐍 pycamp-lab
+# 🐍 pytonpycamp-lab
 
-**pycamp-lab** es un laboratorio práctico de ejemplos en **Python**, enfocado en el desarrollo de **aplicaciones de escritorio**, **interfaces gráficas (GUI)** y **ejecutables multiplataforma**.  
-El objetivo es ofrecer proyectos claros, funcionales y fáciles de adaptar para aprender o crear herramientas reales con **Qt Designer**, **PyQt/PySide** y **Wine** en entornos Linux.
+Repositorio tipo **laboratorio de aprendizaje en Python**.  
+Aquí se documenta el progreso desde los **fundamentos del lenguaje** hasta el uso de **librerías y proyectos reales** en áreas como automatización, machine learning e inteligencia artificial.
 
----
-
-## 🧩 Contenido principal
-
-| Carpeta | Descripción |
-|----------|--------------|
-| `gui_examples/` | Ejemplos creados con **Qt Designer** y **PyQt/PySide** |
-| `executable_examples/` | Scripts listos para convertir a `.exe` o `.app` |
-| `utils/` | Herramientas útiles y scripts de apoyo (automatización, sistema, etc.) |
-| `docs/` | Documentación y guías paso a paso |
+El objetivo no es solo “hacer que funcione”, sino **entender cómo y por qué**.
 
 ---
+
+## 📁 Estructura del repositorio
+
+```txt
+pytonpycamp-lab/
+│
+├── basics/
+│   └── Fundamentos de Python (desde cero)
+│
+├── libraries/
+│   └── Aprendizaje de librerías específicas
+│
+├── projects/
+│   └── Proyectos prácticos integrando múltiples librerías
+│
+├── notebooks/
+│   └── Experimentos y análisis exploratorio (Jupyter)
+│
+└── README.md
+🧱 basics/
+Contiene los conceptos esenciales de Python, sin depender de librerías externas.
+
+Ejemplos de temas:
+
+Sintaxis básica
+
+Variables y tipos de datos
+
+Condicionales y bucles
+
+Funciones y scope
+
+Estructuras de datos
+
+Manejo de archivos y excepciones
+
+Buenas prácticas
+
+📌 Cada archivo aborda un solo tema, con ejemplos y comentarios.
+
+📚 libraries/
+Aprendizaje enfocado en una librería a la vez, entendiendo su propósito y uso real.
+
+Ejemplos:
+
+numpy/
+
+pandas/
+
+matplotlib/
+
+sklearn/
+
+tensorflow/
+
+selenium/
+
+📌 Aquí no se resuelven problemas grandes, se dominan herramientas.
+
+🧪 projects/
+Proyectos prácticos donde se mezclan conceptos y librerías.
+
+Ejemplos de áreas:
+
+Automatización
+
+Machine Learning
+
+Inteligencia Artificial
+
+Data analysis
+
+📌 En esta carpeta importa el resultado y el flujo completo, no la librería individual.
+
+📓 notebooks/
+Uso de Jupyter Notebooks para:
+
+Experimentación
+
+Visualización de datos
+
+Pruebas rápidas
+
+Análisis exploratorio
+
+🎯 Objetivo del repositorio
+Aprender Python de forma estructurada
+
+Construir una base sólida antes de frameworks complejos
+
+Servir como referencia futura
+
+Funcionar como portafolio de aprendizaje
+
+🚀 Estado
+📍 En progreso — aprendizaje continuo.
+
+🧠 Nota
+Este repositorio prioriza:
+
+Claridad sobre complejidad
+
+Entendimiento sobre copiar/pegar
+
+Orden sobre improvisación
+
+
 
 ## ⚙️ Instalación y entorno
 
