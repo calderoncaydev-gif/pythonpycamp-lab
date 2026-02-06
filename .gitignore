@@ -1,7 +1,30 @@
-# Ignorar entorno virtual
+# Entorno virtual
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# MacOS
 .DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos grandes de librerías (TensorFlow, PyTorch, etc)
+*.dll
+*.so
+*.dylib
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+
+# Carpeta de salida de notebooks
+output/
