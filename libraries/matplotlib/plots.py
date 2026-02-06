@@ -1,0 +1,52 @@
+"""
+plots.py
+Funciones para generar gráficos usando Matplotlib y Seaborn.
+"""
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
+# Configuración general de Seaborn
+sns.set_theme(style="whitegrid")
+
+def plot_histograma(data, columna, bins=10):
+    """
+    Grafica un histograma de una columna específica de un DataFrame.
+    """
+    plt.figure(figsize=(8,5))
+    sns.histplot(data[columna], bins=bins, kde=True, color='skyblue')
+    plt.title(f'Histograma de {columna}')
+    plt.xlabel(columna)
+    plt.ylabel('Frecuencia')
+    plt.show()
+
+def plot_scatter(data, x_col, y_col, hue=None):
+    """
+    Grafica un scatter plot (diagrama de dispersión).
+    """
+    plt.figure(figsize=(8,5))
+    sns.scatterplot(data=data, x=x_col, y=y_col, hue=hue, palette="deep", s=100)
+    plt.title(f'{y_col} vs {x_col}')
+    plt.xlabel(x_col)
+    plt.ylabel(y_col)
+    plt.show()
+
+def plot_box(data, columna):
+    """
+    Grafica un diagrama de caja (boxplot) para detectar outliers.
+    """
+    plt.figure(figsize=(6,4))
+    sns.boxplot(x=data[columna], color='lightgreen')
+    plt.title(f'Boxplot de {columna}')
+    plt.show()
+
+# Ejemplo rápido
+if __name__ == "__main__":
+    df = pd.DataFrame({
+        "Edad": [23, 35, 29, 41, 30, 50, 60],
+        "Peso": [60, 75, 68, 80, 70, 85, 90]
+    })
+    plot_histograma(df, "Edad")
+    plot_scatter(df, "Edad", "Peso")
+    plot_box(df, "Peso")

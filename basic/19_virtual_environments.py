@@ -9,8 +9,8 @@ Uso de entornos virtuales en Python.
 # python -m venv venv_name
 
 # Activar:
-# Windows: venv_name\Scripts\activate
-# Linux/Mac: source venv_name/bin/activate
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
 
 # Instalar paquetes
 # pip install package_name

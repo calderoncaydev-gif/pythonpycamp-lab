@@ -3,7 +3,7 @@
 -----------------
 Primer contacto con Python.
 
-Objetivo:
+Objetivo
 - Ejecutar un programa en Python
 - Entender la función print()
 - Ver cómo se estructura un archivo .py
