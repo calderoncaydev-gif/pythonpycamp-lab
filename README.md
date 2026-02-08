@@ -121,3 +121,16 @@ Orden sobre improvisación
    git clone https://github.com/calderoncaydev-gif/pytonpycamp-lab
    cd pycamp-lab
 
+2. **Crea entorno virtual**
+   bash
+   **window
+   python -m venv venv
+   venv/bin/activate
+
+   **ubuntu
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. **Instala Dependencias**
+   bash 
+   pip install -r requirements.txt
