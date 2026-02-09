@@ -128,7 +128,7 @@ Orden sobre improvisación
 
 1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/calderoncaydev-gif/pytonpycamp-lab
+   git clone https://github.com/calderoncaydev-gif/pytonpycamp-lab](https://github.com/calderoncaydev-gif/pythonpycamp-lab.git
    cd pycamp-lab
 
 2. **Crea entorno virtual**
