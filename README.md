@@ -1,9 +1,19 @@
 # 🐍 pytonpycamp-lab
 
-Repositorio tipo **laboratorio de aprendizaje en Python**.  
-Aquí se documenta el progreso desde los **fundamentos del lenguaje** hasta el uso de **librerías y proyectos reales** en áreas como automatización, machine learning e inteligencia artificial.
+Repositorio de aprendizaje y experimentación.
 
-El objetivo no es solo “hacer que funcione”, sino **entender cómo y por qué**.
+Aquí se agrupan pruebas técnicas, laboratorios y ejemplos
+desarrollados durante el proceso de estudio y práctica en Python.
+
+## Contenido
+- APIs con Flask y FastAPI
+- Pruebas con librerías
+- Interfaces gráficas (PyQt / QtDesigner)
+- Manejo de errores reales
+- Experimentos y prototipos
+
+⚠️ Este repositorio NO representa un proyecto productivo final.
+Los proyectos reales y demostrativos se encuentran en repositorios separados.
 
 ---
 
